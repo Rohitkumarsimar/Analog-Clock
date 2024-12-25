@@ -51,14 +51,14 @@ margin: auto;
 
 @media screen and (max-width: 800px) {
     body {
-        background-image: url('assets/clouds2.jpg');
+        background-image: url('assets/clouds2.png');
         background-size: 100%;
         background-repeat: no-repeat;
         /* background-position: center; */
     }
     #clock {
-        margin-top: 25%;
-        height: 55vw;
-        width: 55vw;
+        margin-top: 0%;
+        height: 65vw;
+        width: 65vw;
     }
 }

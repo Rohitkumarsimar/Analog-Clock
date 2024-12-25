@@ -1,0 +1,51 @@
+body{
+    background: url(assets/clouds-4215608.jpg) no-repeat;
+    background-size: 100%;
+   /* filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.562)); */
+
+}
+
+#clock{
+    position: relative;
+    height: 40vw;
+width: 40vw;
+background: url(assets/clock.png) no-repeat;
+background-size: 100%;
+margin: auto;
+}
+
+#hour, #minutes, #seconds{
+ 
+    bottom: 0;
+    position: absolute;
+    background: #000;
+    border-radius: 25px;
+    
+}
+#hour {
+    top: 25%;
+    left: 49.7%;
+    height: 25%;
+    width: 0.8%;
+    transform-origin: bottom;
+}
+
+
+#minutes {
+    background: rgb(0, 0, 0);
+    top: 20%;
+    left: 49.77%;
+    height: 30%;
+    width: 0.6%;
+    transform-origin: bottom;
+}
+
+#seconds {
+    background: rgb(48, 48, 48);
+    top: 14%;
+    left: 49.8%;
+    height: 36%;
+    width: 0.5%;
+    transform-origin: bottom;
+}
+

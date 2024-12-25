@@ -49,3 +49,16 @@ margin: auto;
     transform-origin: bottom;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url('assets/clouds2.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+    }
+    #clock {
+        margin-top: 25%;
+        height: 55vw;
+        width: 55vw;
+    }
+}
